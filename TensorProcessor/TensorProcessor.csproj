@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="TorchSharp" Version="0.99.4" />
+    <PackageReference Include="TensorFlow.NET" Version="0.100.4" />
+    <PackageReference Include="Accord.MachineLearning" Version="3.8.0" />
+    <PackageReference Include="Accord.Math" Version="3.8.0" />
+  </ItemGroup>
 </Project>
